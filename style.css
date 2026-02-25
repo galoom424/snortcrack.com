@@ -28,6 +28,7 @@
         --nav-gap: 25px; 
         --nav-button-padding: 2px; 
         --nav-button-radius: 0px;
+            --argh2-offset: 40px; /* push argh2 further right */
     }
 
     html {
@@ -161,12 +162,15 @@
         max-width: 500px;
         padding: 25px;
         border: none;
+        margin-left: var(--argh2-offset);
     }
     
     .argh2 h3 {
         margin-top: 0;
         margin-bottom: 4px;
         text-align: right;
+        text-align: left; /* heading above list aligned left */
+        align-self: flex-start; /* keep the heading at the left edge of the panel */
     }
 
     .argh2 ul {
