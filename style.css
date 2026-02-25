@@ -64,10 +64,18 @@
     .argh1 {
         text-align: center;
         width: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
     .argh2 {
         text-align: center;
         width: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
