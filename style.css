@@ -5,7 +5,7 @@
         --main-bg: #111111;  
         --lighter-bg: #3c3c3c; 
         --border: #747373;
-        --darker-border: #252525; 
+        --darker-border: #000000; 
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
