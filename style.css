@@ -50,10 +50,10 @@
     main {
         background-color: var(--main-bg);
         background-color: var(--main-bg);
+        background-position: center;
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: 850px;
-        background-position: center;
         border-top: 4px solid var(--border2);
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
@@ -61,7 +61,8 @@
         padding-top: 15px;
         padding-bottom: 5px;
         padding-left: 25px;
-        padding-right: 25px;       
+        padding-right: 25px;
+        position: relative;       
     }
 
     footer {
@@ -70,7 +71,7 @@
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
         color: var(--text-color);
-        position: relative;
+        position: absolute;
         bottom:0;
     }
 
