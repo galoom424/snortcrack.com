@@ -49,6 +49,7 @@
 
     main {
         background-color: var(--main-bg);
+        color: var(--text-color);
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: 800px;
@@ -57,11 +58,7 @@
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
         border-left: 4px  solid var(--border2);
-        color: var(--text-color);
-        padding: 15px, 5px, 25px, 25px;
-    }
-
-    #navbar {
+        margin: 15px, 5px, 25px, 25px;
     }
 
     #navbar ul {
