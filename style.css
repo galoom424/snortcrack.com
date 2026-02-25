@@ -21,8 +21,8 @@
 
         /* layout stuff */
         --main-width: 1124px;
+        --main-height: 800;
         --argh2-ul-width: 300px;
-        --main-padding: 0px;
         --navbar-height: 50px; 
         --navbar-width: 250px; 
         --gab: 25px;
@@ -53,7 +53,7 @@
         background-position: center;
         max-width: var(--main-width);
         min-width: var(--main-width);
-        min-height: 850px;
+        min-height: var(--main-height);
         border-top: 4px solid var(--border2);
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
@@ -140,8 +140,8 @@
     #navbar ul {
         list-style: none;
         padding: 0;
-        margin: 0;
-        gap: auto;
+        margin: -25px;
+        gap: var(--nav-gap);
         display: flex;
         align-items: center;
         justify-content: center;
