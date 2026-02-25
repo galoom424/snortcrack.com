@@ -60,14 +60,14 @@
         border-left: 4px  solid var(--border2);
         padding-top: 15px;
         padding-bottom: 5px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: var(--nav-gap);
+        padding-right: var(--nav-gap);
         position: relative;       
     }
 
     footer {
         border-top: 3px solid var(--border2);
-        min-width: 1050px;
+        min-width: var(--main-width);
         text-align: right;
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
@@ -75,7 +75,7 @@
         position: absolute;
         padding-top: 15px;
         bottom:15px;
-        right: 25px;
+        right: var(--nav-gap);
     }
 
     .title {
