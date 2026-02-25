@@ -2,14 +2,14 @@
     :root {
         /* colors */
         --bg-color: #000000; 
-        --main-bg: #2f2f2f;  
-        --lighter-bg: #2a2a2a; 
+        --main-bg: #2a2a2a;  
+        --lighter-bg: #3c3c3c; 
         --border: #ffffff;
         --darker-border: #000000; 
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
-        --button-bg: #202020;
+        --button-bg: #313131;
 
         /* text */
         --body-font: 'Nunito', sans-serif;
@@ -20,12 +20,12 @@
         --nav-button-font-size: 25px;
 
         /* layout stuff */
-        --main-width: 1500px;
-        --argh2-ul-width: 300px;
+        --main-width: 1100px;
+        --argh2-ul-width: 200px;
         --main-padding: 0px;
-        --gap: 20px;
+        --gap: 25px;
         --navbar-height: 60px; 
-        --navbar-width: 350px; 
+        --navbar-width: 250px; 
         --nav-gap: 25px; 
         --nav-button-padding: 2px; 
         --nav-button-radius: 0px;
@@ -140,6 +140,7 @@
           display: flex;
           justify-content: right;
           align-items: right;
+          margin: 25px;
     }
 
     .argh1 {
@@ -149,7 +150,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 25px;
 
     }
 
@@ -158,8 +158,6 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
         gap: 8px;
         max-width: 500px;
         border: none;
@@ -169,7 +167,6 @@
         margin-top: 0;
         margin-bottom: 4px;
         text-align: left;
-        align-self: flex-start;
     }
 
     .argh2 ul {
