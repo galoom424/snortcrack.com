@@ -9,7 +9,6 @@
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
-        --button-bg: #222222;
 
         /* text */
         --body-font: 'Nunito', sans-serif;
@@ -102,7 +101,7 @@
         border-right: 4px solid var(--border);
         border-bottom: 3px solid var(--border);
         border-left: 4px  solid var(--border2);
-        background: var(--button-bg);
+        background: var(--lighter-bg);
         border-radius: var(--nav-button-radius);
         font-size: var(--nav-button-font-size);
         box-sizing: border-box;
@@ -112,9 +111,13 @@
         max-width: var(--navbar-width);
     }
 
-    .nav-button:hover {
-        background: var(--nav-hover-bg);
-    }
+.nav-button:hover {
+    border-top: 3px solid color-mix(in srgb, var(--border2) 40%, black);
+    border-right: 4px solid color-mix(in srgb, var(--border) 40%, black);
+    border-bottom: 3px solid color-mix(in srgb, var(--border) 40%, black);
+    border-left: 4px solid color-mix(in srgb, var(--border2) 40%, black);
+    background: color-mix(in srgb, var(--lighter-bg) 40%, black);
+}
 
     .nav-button:focus {
         outline: 3px solid var(--nav-focus-outline);
