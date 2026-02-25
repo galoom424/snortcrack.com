@@ -107,7 +107,7 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 800px;
         border: none;
     }
     
@@ -203,10 +203,6 @@
     }
 
     .p-centered {
-        display: block;
-        float: none;
-        margin-right:auto ;
-        margin-left: auto;
     }
 
     .container {
