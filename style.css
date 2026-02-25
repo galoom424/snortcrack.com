@@ -64,7 +64,7 @@ and then link it! Many fonts have separate files for each style
 
     body {
         font-family: 'Nunito', sans-serif;
-        margin: 0;
+        margin: 10;
         background-color: ;
         background-size: 65px;
         color: black;
@@ -185,7 +185,7 @@ between the sidebars! */
         background-color: ;
         padding: 10px;
         flex: 1;
-        border: 3px solid #000000;
+        border: 3px solid #e3e3e3;
         font-size: smaller;
     }
 
