@@ -113,16 +113,21 @@
     }
     
     .nav-button:hover {
-        transform: translate(1px, 1px);
+        border-top: 4px solid color-mix(in srgb, var(--border2) 95%, black);
+        border-right: 4px solid color-mix(in srgb, var(--border) 95%, black);
+        border-bottom: 4px solid color-mix(in srgb, var(--border) 95%, black);
+        border-left: 4px solid color-mix(in srgb, var(--border2) 95%, black);
+        background: color-mix(in srgb, var(--lighter-bg) 95%, black);
+        color: color-mix(in srgb, var(--text-color) 95%, black);
+    }
+    .nav-button:active {
+        transform: translate(1px,1px);
         border-top: 4px solid color-mix(in srgb, var(--border2) 90%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
         border-bottom: 4px solid color-mix(in srgb, var(--border) 90%, black);
         border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
         color: color-mix(in srgb, var(--text-color) 90%, black);
-    }
-    .nav-button:active {
-        transform: translate(2px,2px);
     }
 
 
