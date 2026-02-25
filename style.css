@@ -4,8 +4,8 @@
         --bg-color: #000000; 
         --main-bg: #111111;  
         --lighter-bg: #3c3c3c; 
-        --border: #ffffff;
-        --darker-border: #000000; 
+        --border: #747373;
+        --darker-border: #252525; 
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
@@ -23,7 +23,7 @@
         --main-width: 1124px;
         --argh2-ul-width: 300px;
         --main-padding: 0px;
-        --navbar-height: 40px; 
+        --navbar-height: 50px; 
         --navbar-width: 250px; 
         --gab: 25px;
         --nav-gap: 25px; 
