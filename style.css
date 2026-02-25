@@ -4,8 +4,7 @@
         --bg-color: #ededed;
         --main-bg: #ffffff;  
         --lighter-bg: #ffffff; 
-        --border1: #888888;
-        --border2: #e62e2e; 
+        --border1: #e62e2e;
         --text-color: #000000; 
 
         /* text */
@@ -51,20 +50,21 @@
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: var(--main-height);
-        border-top: 1px solid var(--border2);
+        border-top: 1px solid var(--border1);
         border-right: 1px solid var(--border1);
         border-bottom: 1px solid var(--border1);
-        border-left: 1px  solid var(--border2);
+        border-left: 1px  solid var(--border1);
         padding-top: var(--vertical-padding);
         padding-bottom: var(--vertical-padding);
         padding-left: var(--horizontal-padding);
         padding-right: var(--horizontal-padding);
         position: relative;
         margin: 100px auto;
+        text-shadow: 2px 2px color-mix(in srgb, var(--border1) 95%, black);
     }
 
     footer {
-        border-top: 1px solid var(--border2);
+        border-top: 1px solid var(--border1);
         min-width: var(--main-width);
         text-align: left;
         font-size: var(--footer-font-size);
@@ -130,10 +130,10 @@
     .argh2 li {
         padding: 6px;
         text-align: center;
-        border-top: 1px solid var(--border2);
+        border-top: 1px solid var(--border1);
         border-right: 1px solid var(--border1);
         border-bottom: 1px solid var(--border1);
-        border-left: 1px  solid var(--border2);
+        border-left: 1px  solid var(--border1);
     }
 
     #navbar ul {
@@ -157,10 +157,10 @@
         justify-content: center;
         color: var(--text-color);
         text-decoration: none;
-        border-top: 1px solid var(--border2);
+        border-top: 1px solid var(--border1);
         border-right: 1px solid var(--border1);
         border-bottom: 1px solid var(--border1);
-        border-left: 1px  solid var(--border2);
+        border-left: 1px  solid var(--border1);
         background: var(--lighter-bg);
         border-radius: var(--nav-button-radius);
         font-size: var(--nav-button-font-size);
@@ -172,19 +172,19 @@
     }
     
     .nav-button:hover {
-        border-top: 1px solid color-mix(in srgb, var(--border2) 95%, black);
+        border-top: 1px solid color-mix(in srgb, var(--border1) 95%, black);
         border-right: 1px solid color-mix(in srgb, var(--border1) 95%, black);
         border-bottom: 1px solid color-mix(in srgb, var(--border1) 95%, black);
-        border-left: 1px solid color-mix(in srgb, var(--border2) 95%, black);
+        border-left: 1px solid color-mix(in srgb, var(--border1) 95%, black);
         background: color-mix(in srgb, var(--lighter-bg) 95%, black);
         color: color-mix(in srgb, var(--text-color) 95%, black);
     }
     .nav-button:active {
         transform: translate(1px,1px);
-        border-top: 1px solid color-mix(in srgb, var(--border2) 90%, black);
+        border-top: 1px solid color-mix(in srgb, var(--border1) 90%, black);
         border-right: 1px solid color-mix(in srgb, var(--border1) 90%, black);
         border-bottom: 1px solid color-mix(in srgb, var(--border1) 90%, black);
-        border-left: 1px solid color-mix(in srgb, var(--border2) 90%, black);
+        border-left: 1px solid color-mix(in srgb, var(--border1) 90%, black);
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
         color: color-mix(in srgb, var(--text-color) 90%, black);
     }
