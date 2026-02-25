@@ -67,7 +67,7 @@
 
     footer {
         border-top: 3px solid var(--border2);
-        width: 1050px;
+        min-width: 1050px;
         text-align: right;
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
@@ -76,7 +76,6 @@
         padding-top: 15px;
         bottom:15px;
         right: 25px;
-        left: 25px;
     }
 
     .title {
