@@ -87,7 +87,7 @@
         font-family: var(--heading-font);
         font-size: 20px;
         text-align: left;
-        border-bottom: 1px dashed var(--border1)
+        border-bottom: 1px dashed var(#777)
 
     }
 
@@ -235,4 +235,21 @@
 
     .bdp-gray {
         background: radial-gradient(#777 .5px, #00000000 1px) 0 0/3px 3px,var(--main-bg)
+    }
+
+    .line {
+        height: 1px;
+        margin: .5rem 0 .5rem;
+        color: #333;
+        border: none;
+        border-top: 1px dashed #000000;
+    }
+
+    .line.solid {
+        border-top: none;
+        border-bottom: 1px solid #333;
+    }
+
+    .line.solid-header {
+        border: none
     }
