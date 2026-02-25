@@ -131,7 +131,7 @@
         font-family: var(--heading-font);
         font-size: 15px;
         text-align: left;
-        margin-bottom: 25px;
+        margin: 25px;
     }
 
     .argh {
@@ -151,7 +151,7 @@
     }
 
     .argh2 {
-        text-align: center;
+        text-align: right;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -159,7 +159,7 @@
         align-items: stretch;
         gap: 8px;
         max-width: 500px;
-        padding: 10px;
+        padding: 30px;
         border: none;
     }
     
