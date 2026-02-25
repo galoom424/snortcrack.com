@@ -156,17 +156,17 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: stretch;
+        align-items: flex-end;
         gap: 8px;
         max-width: 500px;
-        padding: 30px;
+        padding: 25px;
         border: none;
     }
     
     .argh2 h3 {
         margin-top: 0;
         margin-bottom: 4px;
-        text-align: center;
+        text-align: right;
     }
 
     .argh2 ul {
@@ -178,6 +178,7 @@
         width: var(--argh2-ul-width);
         font-size: var(--ul-font-size);
         box-sizing: border-box;
+        text-align: right;
     }
     
     .argh2 li {
