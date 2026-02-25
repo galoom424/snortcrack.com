@@ -181,10 +181,6 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        border-top: 3px solid var(--border2);
-        border-right: 4px solid var(--border);
-        border-bottom: 3px solid var(--border);
-        border-left: 4px  solid var(--border2);
         background: var(--lighter-bg);
         width: var(--argh2-ul-width);
         font-size: var(--ul-font-size);
@@ -195,7 +191,10 @@
     .argh2 li {
         padding: 6px;
         text-align: center;
-        border-bottom: 4px solid var(--border2);
+        border-top: 3px solid var(--border2);
+        border-right: 4px solid var(--border);
+        border-bottom: 3px solid var(--border);
+        border-left: 4px  solid var(--border2);
     }
     
     .argh2 li:last-child {
