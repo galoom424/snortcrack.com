@@ -46,9 +46,22 @@
     }
 
     main {
+        background-color: transparent;
+        padding: var(--main-padding);
+        max-width: var(--main-width);
+        min-width: var(--main-width);
+        min-height: 400px;
+        background-position: center;
+        color: var(--text-color);
+        border: none;
+        font-size: 10px; 
+        box-sizing: border-box;
+        margin: var(--gap) auto;
+    }
+
+    .main {
         background-color: var(--main-bg);
         padding: var(--main-padding);
-        width: 100%;
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: 400px;
