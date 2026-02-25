@@ -152,8 +152,9 @@
         font-family: var(--heading-font);
         font-size: 20px;
         text-align: left;
-        margin-left: 15px
-        margin-bottom: 25px;
+        margin-left: 25px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
     .argh {
