@@ -198,7 +198,7 @@
     .fs-base { font-size: var(--base-font-size); }
     .fs-small { font-size: var(--small-font-size); }
     
-    
+
     .measure-60 {
         max-width: 60rem;
     }
