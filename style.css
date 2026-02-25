@@ -64,12 +64,10 @@ and then link it! Many fonts have separate files for each style
 
     body {
         font-family: 'Nunito', sans-serif;
-        margin: 10;
-        background-color: ;
         background-size: 65px;
         color: black;
         color: black;
-        background-image: rgb(0, 0, 0);
+        background-color: #000000;
         background-size: 200px;
         background-position: center;
     }
@@ -188,6 +186,7 @@ between the sidebars! */
         max-width: 600px;
         height: 300px;
         flex: 1;
+        background-color: #202020;
         color: #202020;
         border: 3px solid #ffffff;
         font-size: 12px;
