@@ -119,10 +119,10 @@
         border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
         border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
-        color: color-mix(in srgb, var(--color-text) 90%, black);
+        color: color-mix(in srgb, var(--text) 90%, black);
     }
     .nav-button:active {
-        transform: translate(2px, 2px);
+        transform: translate(2px);
     }
 
 
