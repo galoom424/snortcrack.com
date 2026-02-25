@@ -20,13 +20,13 @@
         --nav-button-font-size: 20px;
 
         /* layout stuff */
-        --main-width: 1100px;
+        --main-width: 1050px;
         --main-height: 800px;
         --argh2-ul-width: 300px;
         --navbar-height: 50px; 
         --navbar-width: 250px; 
         --gap: 25px;
-        --nav-gap: 27px; 
+        --nav-gap: 25px; 
         --nav-button-padding: 1px; 
         --nav-button-radius: 0px;
         --argh2-offset: 40px; /* push argh2 further right */
