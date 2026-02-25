@@ -82,10 +82,6 @@
     }
 
     #navbar li {
-        min-height: var(--navbar-height);
-        max-height: var(--navbar-height);
-        min-width: var(--navbar-width);
-        max-width: var(--navbar-width);
         margin: 10px;
     }
 
@@ -101,6 +97,10 @@
         border-radius: var(--nav-button-radius);
         font-size: var(--nav-button-font-size);
         box-sizing: border-box;
+        min-height: var(--navbar-height);
+        max-height: var(--navbar-height);
+        min-width: var(--navbar-width);
+        max-width: var(--navbar-width);
     }
 
     .nav-button:hover {
