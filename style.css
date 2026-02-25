@@ -224,10 +224,10 @@
         margin-bottom: 2rem;
     }
 
-    hr {
+    .hr {
         height: 1px;
         margin: .5rem 0 .5rem
-        color: #333
+        color: #333;
         border: none;
         border-top: 1px dashed #000
     }
