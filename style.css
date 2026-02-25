@@ -11,7 +11,7 @@
         /* text */
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
-        --argh-font-size: 40px;
+        --large-font-size: 40px;
         --base-font-size: 25x;
         --small-font-size: 15px;
         --ul-font-size: 20px;
@@ -67,14 +67,14 @@
     footer {
         border-top: 3px solid var(--border2);
         min-width: var(--main-width);
-        text-align: right;
+        text-align: left;
         font-size: var(--footer-font-size);
         font-family: var(--heading-font);
         color: var(--text-color);
         position: absolute;
         padding-top: var(--footer-padding);
         bottom:var(--footer-padding);
-        right: var(--horizontal-padding);
+        left: var(--horizontal-padding);
     }
 
     .title {
