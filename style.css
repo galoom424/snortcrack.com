@@ -79,9 +79,8 @@
         justify-content: center;
         align-items: center;
         width: 500px;
-        background: #3a3a3a;
         padding: 10px;
-        border: 2px solid #ffffff
+        border: none;
     }
     
     .argh2 h3 {
@@ -93,6 +92,7 @@
         padding: 0;
         margin: 0;
         border: 1px solid #e3e3e3;
+        background: #3a3a3a;
     }
     
     .argh2 li {
