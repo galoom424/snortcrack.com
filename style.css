@@ -60,7 +60,7 @@
         padding-left: var(--horizontal-padding);
         padding-right: var(--horizontal-padding);
         position: relative;
-        margin: 0 auto;
+        margin: 50px auto;
     }
 
     footer {
