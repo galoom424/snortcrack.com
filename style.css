@@ -24,10 +24,10 @@
 
     main {
         background-color: ;
-        padding: 10px;
+        padding: none;
         max-width: 600px;
         min-width: 600px;
-        height: 300px;
+        min-height: 400px;
         background-position: center;
         justify-content: center;
         align-items: center;
