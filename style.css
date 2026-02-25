@@ -19,7 +19,7 @@
 
         /* layout stuff */
         --main-width: 850px;
-        --main-height: 70000px;
+        --main-height: 700px;
         --horizontal-padding: 15px; 
         --vertical-padding: 15px; 
         --ul-width: 300px;
@@ -59,7 +59,7 @@
         padding-left: var(--horizontal-padding);
         padding-right: var(--horizontal-padding);
         position: relative;
-        margin: 100px auto;
+        margin: 100px;
         box-shadow: 2px 2px 95%, black
     }
 
@@ -88,7 +88,7 @@
         font-size: 20px;
         text-align: left;
         margin-bottom: ;
-        border-bottom: 1px dotted var(--border1)
+        border-bottom: 1px dashed var(--border1)
     }
 
     .argh {
