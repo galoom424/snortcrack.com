@@ -14,18 +14,19 @@
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
         --base-font-size: 16px;
-        --small-font-size: 13px;
-        --ul-font-size: 14px;
-        --nav-button-font-size: 14px;
+        --small-font-size: 12px;
+        --ul-font-size: 10px;
+        --nav-button-font-size: 6px;
 
         /* layout stuff */
         --main-width: 600px;
         --argh2-ul-width: 100%;
         --main-padding: 20px;
         --gap: 20px;
-        --navbar-height: 40px; 
+        --navbar-height: 20px; 
+        --navbar-width: 140px; 
         --nav-gap: 8px; 
-        --nav-button-padding: 6px 12px; 
+        --nav-button-padding: 2px; 
         --nav-button-radius: 0px;
     }
 
@@ -65,8 +66,10 @@
     }
 
     #navbar {
-        height: var(--navbar-height);
-        width: 100%;
+        min-height: var(--navbar-height);
+        max-height: var(--navbar-height);
+        min-width: var(--navbar-width);
+        max-width: var(--navbar-width);
         margin-bottom: 5px;
     }
 
@@ -179,7 +182,6 @@
         border-bottom: none;
     }
 
-    /* Utility classes for quick edits */
     .bg-main { background-color: var(--main-bg); }
     .bg-muted { background-color: var(--lighter-bg); }
     .text-accent { color: var(--border); }
