@@ -89,6 +89,7 @@
     }
 
     .nav-button {
+        transition: transform 0.15s ease;
         display: inline-flex;
         align-items: center;
         text-align: center;
@@ -112,8 +113,7 @@
     }
     
     .nav-button:hover {
-        margin-top: 1px;
-        margin-left: 1px;
+        transform: translateY(4px);
         border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
         border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
