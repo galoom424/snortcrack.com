@@ -58,10 +58,10 @@
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
         border-left: 4px  solid var(--border2);
-        margin-top: 15px;
-        margin-bottom: 5px;
-        margin-left: 25px;
-        margin-right: 25px;       
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 25px;
+        padding-right: 25px;       
     }
 
     footer {
