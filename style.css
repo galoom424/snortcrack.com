@@ -25,7 +25,7 @@
         --argh2-ul-width: 300px;
         --navbar-height: 50px; 
         --navbar-width: 250px; 
-        --gab: 25px;
+        --gap: 25px;
         --nav-gap: 25px; 
         --nav-button-padding: 1px; 
         --nav-button-radius: 0px;
@@ -148,9 +148,6 @@
         justify-content: center;
     }
 
-    #navbar li {
-    }
-
     .nav-button {
         transition: transform 0.12s ease, box-shadow 0.12s ease;
         display: inline-flex;
@@ -178,9 +175,7 @@
     .nav-button:hover {
         border-top: 4px solid color-mix(in srgb, var(--border2) 95%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 95%, black);
-        border-bottom: 4px solid color-mix(
-    }
-in srgb, var(--border) 95%, black);
+        border-bottom: 4px solid color-mix(in srgb, var(--border) 95%, black);
         border-left: 4px solid color-mix(in srgb, var(--border2) 95%, black);
         background: color-mix(in srgb, var(--lighter-bg) 95%, black);
         color: color-mix(in srgb, var(--text-color) 95%, black);
