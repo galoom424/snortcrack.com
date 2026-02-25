@@ -87,8 +87,13 @@
         font-family: var(--heading-font);
         font-size: 20px;
         text-align: left;
+<<<<<<< Updated upstream
         margin-bottom: ;
         border-bottom: 1px dashed var(--border1)
+=======
+        margin-bottom: 15px;
+        border-bottom: 1px dotted var(--border1)
+>>>>>>> Stashed changes
     }
 
     .argh {
@@ -206,9 +211,6 @@
 
     .measure-60 {
         max-width: 60rem;
-    }
-
-    .p-centered {
     }
 
     .container {
