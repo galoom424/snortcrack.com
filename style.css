@@ -53,8 +53,13 @@
         max-width: var(--main-width);
         min-width: var(--main-width);
         background-position: center;
+        border-top: 4px solid var(--border2);
+        border-right: 4px solid var(--border);
+        border-bottom: 4px solid var(--border);
+        border-left: 4px  solid var(--border2);
+        box-sizing: border-box;
         color: var(--text-color);
-        border: none;
+        padding: 15px, 5px, 25px, 25px;
     }
 
     .main {
@@ -64,12 +69,6 @@
         min-width: var(--main-width);
         min-height: 850px;
         background-position: center;
-        color: var(--text-color);
-        border-top: 4px solid var(--border2);
-        border-right: 4px solid var(--border);
-        border-bottom: 4px solid var(--border);
-        border-left: 4px  solid var(--border2);
-        box-sizing: border-box;
         margin: var(--gap) auto;
     }
 
