@@ -48,11 +48,12 @@
     }
 
     main {
-        background-color: transparent;
+        background-color: var(--main-bg);
         padding: var(--main-padding);
         max-width: var(--main-width);
         min-width: var(--main-width);
         background-position: center;
+        margin: var(--gap) auto;
         border-top: 4px solid var(--border2);
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
@@ -60,15 +61,6 @@
         box-sizing: border-box;
         color: var(--text-color);
         padding: 15px, 5px, 25px, 25px;
-    }
-
-    .main {
-        background-color: var(--main-bg);
-        max-width: var(--main-width);
-        min-width: var(--main-width);
-        min-height: 850px;
-        background-position: center;
-        margin: var(--gap) auto;
     }
 
     #navbar {
