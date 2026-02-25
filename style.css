@@ -9,7 +9,7 @@
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
-        --button-bg: #1b1b1b;;
+        --button-bg: #282828;
 
         /* text */
         --body-font: 'Nunito', sans-serif;
@@ -184,7 +184,7 @@
     .argh2 li {
         padding: 6px 10px;
         text-align: center;
-        border-bottom: 1px solid var(--darker-border);
+        border-bottom: 2px solid var(--darker-border);
     }
     
     .argh2 li:last-child {
