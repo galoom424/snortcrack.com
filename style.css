@@ -24,9 +24,10 @@
         --main-height: 800px;
         --argh2-ul-width: 300px;
         --navbar-height: 50px; 
-        --navbar-width: 250px; 
-        --gap: 25px;
-        --nav-gap: 25px; 
+        --navbar-width: 250px;
+        --horizontal-padding: 25px; 
+        --vertical-padding: 15px; 
+        --footer-padding: 10px; 
         --nav-button-padding: 1px; 
         --nav-button-radius: 0px;
         --argh2-offset: 40px; /* push argh2 further right */
@@ -58,10 +59,10 @@
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
         border-left: 4px  solid var(--border2);
-        padding-top: 15px;
-        padding-bottom: 5px;
-        padding-left: var(--nav-gap);
-        padding-right: var(--nav-gap);
+        padding-top: var(--vertical-padding);
+        padding-bottom: var(--vertical-padding);
+        padding-left: var(--horizontal-padding);
+        padding-right: var(--horizontal-padding);
         position: relative;       
     }
 
@@ -73,9 +74,9 @@
         font-family: var(--heading-font);
         color: var(--text-color);
         position: absolute;
-        padding-top: 15px;
-        bottom:15px;
-        right: var(--nav-gap);
+        padding-top: var(--footer-padding);
+        bottom:var(--footer-padding);
+        right: var(--horizontal-padding);
     }
 
     .title {
@@ -144,7 +145,7 @@
         padding: 0;
         margin-left: -25px;
         margin-right: -25px;
-        gap: var(--nav-gap);
+        gap: var(--horizontal-padding);
         display: flex;
         align-items: center;
         justify-content: center;
