@@ -9,6 +9,7 @@
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
+        --button-bg: #737373;
 
         /* text */
         --body-font: 'Nunito', sans-serif;
@@ -95,7 +96,7 @@
         color: var(--text-color);
         text-decoration: none;
         border: 1px solid var(--darker-border);
-        background: transparent;
+        background: var(--button-bg);
         border-radius: var(--nav-button-radius);
         font-size: var(--nav-button-font-size);
         box-sizing: border-box;
@@ -137,13 +138,13 @@
 
     .argh {
           display: flex;
-          justify-content: space-between;
+          justify-content: right;
           align-items: right;
     }
 
     .argh1 {
         text-align: center;
-        width: auto;
+        width: 100%;
         margin: auto;
         display: flex;
         justify-content: center;
