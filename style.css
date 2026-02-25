@@ -66,8 +66,8 @@
     }
 
     footer {
-        border-top: 3px solid var(--border);
-        width: 1025px;
+        border-top: 3px solid var(--border2);
+        width: 1050px;
         text-align: right;
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
