@@ -70,8 +70,8 @@
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
         color: var(--text-color);
-        justify-content: bottom;
-        align-items: bottom; 
+        position:absolute;
+        bottom:0;
     }
 
     .title {
@@ -140,7 +140,6 @@
         padding: 0;
         margin: 0;
         display: flex;
-        gap: var(--nav-gap);
         align-items: center;
         justify-content: center;
     }
