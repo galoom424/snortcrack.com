@@ -69,7 +69,7 @@ and then link it! Many fonts have separate files for each style
         background-size: 65px;
         color: black;
         color: black;
-        background-image: url('https://hongkongmfr.org/assets/fallenangels.gif');
+        background-image: url('');
         background-size: 200px;
         background-position: center;
     }
@@ -93,7 +93,7 @@ before and after the text */
     /* if you want something (like the header) to be Wider than
 the other elements, you will need to move that div outside
 of the container */
-    #container {
+    #container {ttps://i.imgur.com/7kLqDyf.gif
         max-width: 1000px;
         /* this is the width of your layout! */
         /* if you change the above value, scroll to the bottom
