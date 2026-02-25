@@ -1,165 +1,332 @@
-body {
-  background:#cfcfcf;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:14px;
-  color:#111;
-}
+e images as variables */
 
-.page {
-  width: 1000px;
-  margin: 20px auto;
-  background:#e5e5e5;
-  border:1px solid #888;
-  padding:20px;
-}
+    :root {
+        --header-image: url('');
+        --body-bg-image: url('https://web.archive.org/web/20090902135130/http://www.geocities.com/sweet_surrender_12000/anachdruk28background.gif');
+        --bg-image: url('https://web.archive.org/web/20090902135130/http://www.geocities.com/sweet_surrender_12000/anachdruk28background.gif');
+        --sidebar-image: ;
 
-/* Top Bar */
-.topbar {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:10px;
-}
+        /* colors */
+        --content: #000000;
+    }
 
-.brand {
-  font-weight:bold;
-}
+    /* if you have the URL of a font, you can set it below */
+    /* feel free to delete this if it's not your vibe */
 
-.color-strip span {
-  display:inline-block;
-  width:30px;
-  height:10px;
-  margin-right:2px;
-}
+    /* this seems like a lot for just one font and I would have to agree 
+but I wanted to include an example of how to include a custom font.
+If you download a font file you can upload it onto your Neocities
+and then link it! Many fonts have separate files for each style
+(bold, italic, etc. T_T) which is why there are so many!
 
-/* Nav */
-.nav {
-  margin-bottom:20px;
-}
+*/
 
-.nav a {
-  display:inline-block;
-  padding:5px 15px;
-  margin-right:5px;
-  border:1px solid #444;
-  background:#ddd;
-  text-decoration:none;
-  color:#000;
-}
 
-.nav a.active {
-  background:#fff;
-}
 
-/* Sections */
-.section-title {
-  font-size:16px;
-  margin:15px 0 5px;
-}
+    @font-face {
+        font-family: 'pgothic';
+        src: url('https://hongkongmfr.org/pgothic/pgothic.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Dogica';
+        src: url('https://hongkongmfr.org/pixel-font/dogica.ttf') format('truetype'),
+        src: url('https://hongkongmfr.org/pixel-font/dogica.otf') format('opentype');
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Dogica';
+        src: url('https://hongkongmfr.org/pixel-font/dogicabold.ttf') format('truetype'),
+        src: url('https://hongkongmfr.org/pixel-font/dogicabold.otf') format('opentype');
+        font-style: bold;
+    }
 
-.rule {
-  border-bottom:1px dotted #666;
-  margin-bottom:15px;
-}
 
-/* Two Column */
-.two-col {
-  display:flex;
-  gap:20px;
-}
+    @font-face {
+        font-family: 'Nunito';
+        src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+        font-weight: bold;
+    }
 
-.left {
-  width:55%;
-}
+    @font-face {
+        font-family: 'pgothic';
+        src: url('https://hongkongmfr.org/pgothic/pgothic-Black.woff') format('woff');
+        font-style: italic;
+    }
 
-.right {
-  width:45%;
-}
+    @font-face {
+        font-family: 'Nunito';
+        src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+        font-style: italic;
+        font-weight: bold;
+    }
 
-blockquote {
-  border-left:2px solid #777;
-  padding-left:10px;
-  margin:10px 0;
-}
+    body {
+        font-family: 'Nunito', sans-serif;
+        margin: 0;
+        background-color: ;
+        background-size: 65px;
+        color: black;
+        color: black;
+        background-image: url('https://hongkongmfr.org/assets/fallenangels.gif');
+        background-size: 200px;
+        background-position: center;
+    }
+    
+    li {
+        list-style-position: inside;
+    }
 
-/* Philosophy Box */
-.philosophy {
-  background:#dcdcdc;
-  border:1px solid #999;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-.box-title {
-  font-weight:bold;
-  padding:5px;
-  border-bottom:1px solid #999;
-  background:#ccc;
-}
+    /* below this line is CSS for the layout */
 
-.philosophy ul {
-  list-style:none;
-  margin:0;
-  padding:0;
-}
+    /* this is a CSS comment
+to uncomment a line of CSS, remove the * and the /
+before and after the text */
 
-.philosophy li {
-  padding:6px 8px;
-  border-bottom:1px solid #bbb;
-}
 
-/* Buttons */
-.btn-yellow {
-  background:#ffcc00;
-  border:1px solid #000;
-  padding:5px 10px;
-  cursor:pointer;
-}
+    /* the "container" is what wraps your entire website */
+    /* if you want something (like the header) to be Wider than
+the other elements, you will need to move that div outside
+of the container */
+    #container {
+        max-width: 1000px;
+        /* this is the width of your layout! */
+        /* if you change the above value, scroll to the bottom
+and change the media query according to the comment! */
+        margin: 0 auto;
+        /* this centers the entire page */
+    }
 
-.btn-green {
-  background:#1e7f4f;
-  color:#fff;
-  border:1px solid #000;
-  padding:5px 10px;
-  cursor:pointer;
-}
+    /* the area below is for all links on your page
+EXCEPT for the navigation */
+    #container a {
+        color: #000000;
+        font-weight: bold;
+        /* if you want to remove the underline
+you can add a line below here that says:
+text-decoration:none; */
+    }
 
-/* Banner */
-.banner {
-  display:flex;
-  gap:20px;
-}
+    #header {
+        width: 100%;
+        background-color: ;
+        /* header color here! */
+        height: 150px;
+        /* this is only for a background image! */
+        /* if you want to put images IN the header, 
+you can add them directly to the <div id="header"></div> element! */
+        background-image: var(--header-image);
+        background-size: 100%;
+    }
 
-.banner-text {
-  width:45%;
-}
+    /* navigation section!! */
+    #navbar {
+        height: 40px;
+        background-color: ;
+        /* navbar color */
+        width: 100%;
+        margin-bottom: 5px;
+    }
 
-.new {
-  background:#cc0000;
-  color:#fff;
-  display:inline-block;
-  padding:3px 6px;
-  font-size:12px;
-  margin-bottom:5px;
-}
+    #navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
 
-.banner-graphic {
-  width:55%;
-  background:#fff;
-  border:1px solid #999;
-  padding:15px;
-  font-family: "Courier New", monospace;
-  font-size:22px;
-  line-height:1.3;
-}
+    #navbar li {
+        padding-top: 10px;
+    }
 
-/* Projects */
-.projects {
-  display:flex;
-  gap:15px;
-}
+    /* navigation links*/
+    #navbar li a {
+        color: #000000;
+        /* navbar text color */
+        font-weight: 800;
+        text-decoration: none;
+        /* this removes the underline */
+    }
 
-.project-box {
-  flex:1;
-  height:120px;
-  background:#ddd;
-  border:1px solid #999;
-}
+    /* navigation link when a link is hovered over */
+    #navbar li a:hover {
+        color: #a49cba;
+        text-decoration: underline;
+    }
+
+    #flex {
+        background-color: #333333;
+        background-size: 15%;
+        display: flex;
+    }
+
+    /* THIS IS THE LEFT BAR THINGIE */
+    aside {
+        background-color: ;
+        background-image: var(--sidebar-image);
+        background-size: 230%;
+        width: 215px;
+        border: 3px solid #000000;
+        padding: 10px;
+        font-size: smaller;
+        border-right-width: 0px;
+        /* this makes the sidebar text slightly smaller */
+    }
+
+    /* this is the color of the main content area,
+between the sidebars! */
+    main {
+        background-color: ;
+        padding: 10px;
+        flex: 1;
+        border: 3px solid #000000;
+        font-size: smaller;
+    }
+    
+    .argh {
+        background-color: #dedede;    
+        padding: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        height: 100%;
+        border: 3px solid #000000;
+    }
+
+    /* what's this "order" stuff about??
+allow me to explain!
+if you're using both sidebars, the "order" value
+tells the CSS the order in which to display them.
+left sidebar is 1, content is 2, and right sidebar is 3! */
+
+    */ #leftSidebar {
+        order: 1;
+    }
+    
+    */ #mainSection {
+        order: 2;
+    }
+
+    */ #rightSidebar {
+        order: 3;
+    }
+
+    footer {
+        background-color: ;
+        /* background color for footer */
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        padding-right: 50px;
+        text-align: right;
+        font-size: 13px;
+        font-family: 'pgothic';
+        /* this centers the footer text */
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #000000;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    strong {
+        /* this styles bold text */
+        color: #000000;
+    }
+
+    /* this is just a cool box, it's the darker colored one */
+    .box {
+        background-color: #edf4f5;
+        border: 3px solid #000000;
+        padding: 10px;
+        border-top-width: 0;
+        margin-bottom: 10px;
+    }
+
+    .sideheader {
+        background-color: #edf4f5;
+        border: 3px solid #000000;
+        padding: 4px;
+    }
+
+    .button {
+        background-color: #edf4f5;
+        border: 3px solid #000000;
+        padding: 10px;
+        border-top-width: 0;
+        margin-bottom: 10px;
+    }
+
+    .ads {
+        border: 0px solid #000000;
+        background-color: black;
+        padding: 0px;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+
+    }
+
+    /* CSS for extras */
+
+    #topBar {
+        width: 100%;
+        height: 30px;
+        font-size: smaller;
+        background-color: #ffffff;
+    }
+
+
+    /* BELOW THIS POINT IS MEDIA QUERY */
+
+    /* so you wanna change the width of your page? 
+by default, the container width is 900px.
+in order to keep things responsive, take your new height,
+and then subtrack it by 100. use this new number as the 
+"max-width" value below
+*/
+
+    @media only screen and (max-width: 800px) {
+        #flex {
+            flex-wrap: wrap;
+        }
+
+        aside {
+            width: 100%;
+        }
+        
+        main {
+            width: 100%;
+        }
+
+
+        /* the order of the items is adjusted here for responsiveness!
+since the sidebars would be too small on a mobile device.
+feel free to play around with the order!
+*/
+        mainSection {
+            order: 2;
+        }
+
+        #leftSidebar {
+            order: 1;
+        }
+
+        #rightSidebar {
+            order: 3;
+        }
+
+        #navbar ul {
+            flex-wrap: wrap;
+        }
+    }
