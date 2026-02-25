@@ -49,16 +49,19 @@
 
     main {
         background-color: var(--main-bg);
-        color: var(--text-color);
+        background-color: var(--main-bg);
         max-width: var(--main-width);
         min-width: var(--main-width);
-        min-height: 800px;
+        min-height: 850px;
         background-position: center;
         border-top: 4px solid var(--border2);
         border-right: 4px solid var(--border);
         border-bottom: 4px solid var(--border);
         border-left: 4px  solid var(--border2);
-        margin: 15px, 5px, 25px, 25px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        margin-left: 25px;
+        margin-right: 25px;       
     }
 
     footer {
