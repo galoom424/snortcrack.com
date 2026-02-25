@@ -1,21 +1,23 @@
-    /* change these */
+    /* change these van */
     :root {
-        /* Colors */
-        --bg-color: #000000; /* page background */
-        --main-bg: #202020;  /* main content background */
-        --lighter-bg: #2a2a2a; /* lighter panel background (under main) */
-        --border: #ffffff; /* border color */
-        --darker-border: #9a9a9a; /* darker muted border */
-        --text-color: #ffffff; /* primary text color */
+        /* colors */
+        --bg-color: #000000; 
+        --main-bg: #202020;  
+        --lighter-bg: #2a2a2a; 
+        --border: #ffffff; 
+        --darker-border: #9a9a9a;
+        --text-color: #ffffff; 
 
-        /* Typography */
+        /* text */
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
         --base-font-size: 16px;
-        --small-font-size: 13px;
+        --small-font-size: 12px;
+        --ul-font-size: 10px;
 
-        /* Layout */
+        /* layout stuff */
         --main-width: 600px;
+        --argh2-ul-width: 100%;
         --main-padding: 20px;
         --gap: 20px;
     }
@@ -115,7 +117,8 @@
         margin: 0;
         border: 1px solid var(--darker-border);
         background: var(--lighter-bg);
-        width: 100%;
+        width: var(--argh2-ul-width);
+        font-size: var(--ul-font-size);
         box-sizing: border-box;
     }
     
@@ -130,8 +133,8 @@
 
     /* Utility classes for quick edits */
     .bg-main { background-color: var(--main-bg); }
-    .bg-muted { background-color: var(--muted-bg); }
-    .text-accent { color: var(--accent-color); }
+    .bg-muted { background-color: var(--lighter-bg); }
+    .text-accent { color: var(--border); }
     .text-primary { color: var(--text-color); }
     .fs-base { font-size: var(--base-font-size); }
     .fs-small { font-size: var(--small-font-size); }
