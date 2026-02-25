@@ -13,14 +13,14 @@
         /* text */
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
-        --base-font-size: 16px;
-        --small-font-size: 8px;
-        --ul-font-size: 10px;
-        --nav-button-font-size: 6px;
+        --base-font-size: 30x;
+        --small-font-size: 25px;
+        --ul-font-size: 25px;
+        --nav-button-font-size: 25px;
 
         /* layout stuff */
         --main-width: 1500px;
-        --argh2-ul-width: 100%;
+        --argh2-ul-width: 350px;
         --main-padding: 0px;
         --gap: 20px;
         --navbar-height: 20px; 
