@@ -185,7 +185,7 @@ between the sidebars! */
     main {
         background-color: ;
         padding: 10px;
-        width: 600px;
+        max-width: 600px;
         height: 300px;
         flex: 1;
         color: #202020;
