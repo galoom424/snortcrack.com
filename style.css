@@ -3,7 +3,7 @@
         /* colors */
         --bg-color: #ededed;
         --main-bg: #ffffff;  
-        --lighter-bg: #212121; 
+        --lighter-bg: #ffffff; 
         --border1: #888888;
         --border2: #e62e2e; 
         --text-color: #000000; 
@@ -99,7 +99,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: var(--argh-font-size)
+        font-size: var(--large-font-size)
     }
 
     .argh2 {
