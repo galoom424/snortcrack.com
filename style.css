@@ -53,10 +53,10 @@
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: var(--main-height);
-        border-top: 4px solid var(--border2);
-        border-right: 4px solid var(--border1);
-        border-bottom: 4px solid var(--border1);
-        border-left: 4px  solid var(--border2);
+        border-top: 1px solid var(--border2);
+        border-right: 1px solid var(--border1);
+        border-bottom: 1px solid var(--border1);
+        border-left: 1px  solid var(--border2);
         padding-top: var(--vertical-padding);
         padding-bottom: var(--vertical-padding);
         padding-left: var(--horizontal-padding);
@@ -65,7 +65,7 @@
     }
 
     footer {
-        border-top: 3px solid var(--border2);
+        border-top: 1px solid var(--border2);
         min-width: var(--main-width);
         text-align: left;
         font-size: var(--footer-font-size);
