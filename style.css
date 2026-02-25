@@ -196,10 +196,6 @@
         border-bottom: 3px solid var(--border);
         border-left: 4px  solid var(--border2);
     }
-    
-    .argh2 li:last-child {
-        border-bottom: none;
-    }
 
     .bg-main { background-color: var(--main-bg); }
     .bg-muted { background-color: var(--lighter-bg); }
