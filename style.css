@@ -61,7 +61,7 @@
 
     .main {
         background-color: var(--main-bg);
-        padding: var(--main-padding);
+        padding: none;
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: 400px;
