@@ -6,7 +6,7 @@
         --lighter-bg: #2a2a2a; 
         --border: #ffffff; 
         --darker-border: #9a9a9a;
-        --text-color: #ffffff; 
+        --text-color: #7c7c7c; 
 
         /* text */
         --body-font: 'Nunito', sans-serif;
@@ -123,7 +123,7 @@
     }
     
     .argh2 li {
-        padding: 3x;
+        padding: 5x;
         border-bottom: 1px solid var(--darker-border);
     }
     
