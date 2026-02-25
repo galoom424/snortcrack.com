@@ -4,33 +4,29 @@
         --bg-color: #000000; 
         --main-bg: #202020;  
         --lighter-bg: #2a2a2a; 
-        --border: #ffffff; 
-        --darker-border: #9a9a9a;
-        --text-color: #7c7c7c; 
+        --border: #ffffff;
+        --darker-border: #9a9a9a; 
+        --text-color: #ffffff; 
+        --nav-focus-outline: var(--border);
+        --nav-hover-bg: var(--lighter-bg);
 
         /* text */
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
         --base-font-size: 16px;
-        --small-font-size: 8px;
-        --ul-font-size: 10px;
+        --small-font-size: 13px;
+        --ul-font-size: 14px;
+        --nav-button-font-size: 14px;
 
         /* layout stuff */
         --main-width: 600px;
-        --argh2-ul-width: 150px;
+        --argh2-ul-width: 100%;
         --main-padding: 20px;
         --gap: 20px;
-    }
-
-    body {
-        font-family: var(--body-font);
-        color: var(--text-color);
-        background-color: var(--bg-color);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height: 100vh;
-        font-size: var(--base-font-size);
+        --navbar-height: 40px; 
+        --nav-gap: 8px; 
+        --nav-button-padding: 6px 12px; 
+        --nav-button-radius: 4px;
     }
 
     #header {
@@ -39,9 +35,46 @@
     }
 
     #navbar {
-        height: 40px;
+        height: var(--navbar-height);
         width: 100%;
         margin-bottom: 5px;
+    }
+
+    #navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: var(--nav-gap);
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar li {
+        margin: 0;
+    }
+
+    .nav-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: var(--nav-button-padding);
+        color: var(--text-color);
+        text-decoration: none;
+        border: 1px solid var(--border);
+        background: transparent;
+        border-radius: var(--nav-button-radius);
+        font-size: var(--nav-button-font-size);
+        box-sizing: border-box;
+    }
+
+    .nav-button:hover {
+        background: var(--nav-hover-bg);
+    }
+
+    .nav-button:focus {
+        outline: 2px solid var(--nav-focus-outline);
+        outline-offset: 2px;
     }
 
     main {
@@ -54,7 +87,7 @@
         background-position: center;
         color: var(--text-color);
         border: 1px solid var(--border);
-        font-size: 0.625rem; /* keeps existing small size (10px) */
+        font-size: 10px; 
         box-sizing: border-box;
         margin: var(--gap) auto;
     }
@@ -107,7 +140,7 @@
     
     .argh2 h3 {
         margin-top: 0;
-        margin-bottom: 0.25rem;
+        margin-bottom: 4px;
         text-align: center;
     }
 
