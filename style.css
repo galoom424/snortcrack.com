@@ -20,11 +20,11 @@
 
         /* layout stuff */
         --main-width: 1500px;
-        --argh2-ul-width: 350px;
+        --argh2-ul-width: 300px;
         --main-padding: 0px;
         --gap: 20px;
-        --navbar-height: 20px; 
-        --navbar-width: 140px; 
+        --navbar-height: 100px; 
+        --navbar-width: 350px; 
         --nav-gap: 8px; 
         --nav-button-padding: 2px; 
         --nav-button-radius: 0px;
