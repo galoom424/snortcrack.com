@@ -113,12 +113,16 @@
     }
     
     .nav-button:hover {
-        transform: translateY(1px);
+        transform: translateYX(1px);
         border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
         border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
         border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
+    }
+    .nav-button:active {
+        transform: translateYX(2px);
+        box-shadow: 0 1px 0 rgba(0,0,0,0.3);
     }
 
 
