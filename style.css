@@ -69,7 +69,7 @@ and then link it! Many fonts have separate files for each style
         background-size: 65px;
         color: black;
         color: black;
-        background-image: white;
+        background-image: rgb(0, 0, 0);
         background-size: 200px;
         background-position: center;
     }
@@ -172,7 +172,8 @@ you can add them directly to the <div id="header"></div> element! */
         background-image: var(--sidebar-image);
         background-size: 230%;
         width: 215px;
-        border: 3px solid #000000;
+        color: #202020;
+        border: 3px solid #ffffff;
         padding: 10px;
         font-size: smaller;
         border-right-width: 0px;
@@ -185,7 +186,7 @@ between the sidebars! */
         background-color: ;
         padding: 10px;
         flex: 1;
-        border: 3px solid #e3e3e3;
+        border: 3px solid #ffffff;
         font-size: 12px;
         font-size: smaller;
     }
