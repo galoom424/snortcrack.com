@@ -7,8 +7,6 @@
         --border: #101010;
         --border2: #323232; 
         --text-color: #ffffff; 
-        --nav-focus-outline: var(--border);
-        --nav-hover-bg: var(--lighter-bg);
 
         /* text */
         --body-font: 'Nunito', sans-serif;
