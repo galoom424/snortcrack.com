@@ -14,7 +14,7 @@
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
         --base-font-size: 16px;
-        --small-font-size: 12px;
+        --small-font-size: 8px;
         --ul-font-size: 10px;
         --nav-button-font-size: 6px;
 
@@ -126,7 +126,6 @@
     footer {
         width: 100%;
         height: 40px;
-        padding: 10px 250px 10px 10px;
         text-align: right;
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
