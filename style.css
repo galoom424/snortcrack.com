@@ -20,7 +20,7 @@
         --nav-button-font-size: 20px;
 
         /* layout stuff */
-        --main-width: 1124px;
+        --main-width: 1100px;
         --main-height: 800px;
         --argh2-ul-width: 300px;
         --navbar-height: 50px; 
@@ -80,7 +80,7 @@
         font-family: var(--heading-font);
         font-size: 20px;
         text-align: left;
-        margin-bottom: 15px;
+        margin-bottom: 15px;:
     }
 
 
