@@ -15,7 +15,7 @@
         --small-font-size: 13px;
 
         /* Layout */
-        --main-max-width: 600px;
+        --main-width: 600px;
         --main-padding: 20px;
         --gap: 20px;
     }
@@ -46,7 +46,8 @@
         background-color: var(--main-bg);
         padding: var(--main-padding);
         width: 100%;
-        max-width: var(--main-max-width);
+        max-width: var(--main-width);
+        min-width: var(--main-width);
         min-height: 400px;
         background-position: center;
         color: var(--text-color);
