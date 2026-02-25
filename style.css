@@ -3,7 +3,7 @@
         /* colors */
         --bg-color: #171717;
         --main-bg: #1a1a1a;  
-        --lighter-bg: #1e1e1e; 
+        --lighter-bg: #212121; 
         --border: #101010;
         --border2: #323232; 
         --text-color: #ffffff; 
@@ -112,11 +112,11 @@
     }
 
 .nav-button:hover {
-    border-top: 3px solid color-mix(in srgb, var(--border2) 40%, black);
-    border-right: 4px solid color-mix(in srgb, var(--border) 40%, black);
-    border-bottom: 3px solid color-mix(in srgb, var(--border) 40%, black);
-    border-left: 4px solid color-mix(in srgb, var(--border2) 40%, black);
-    background: color-mix(in srgb, var(--lighter-bg) 40%, black);
+    border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
+    border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
+    border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
+    border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
+    background: color-mix(in srgb, var(--lighter-bg) 90%, black);
 }
 
     .nav-button:focus {
