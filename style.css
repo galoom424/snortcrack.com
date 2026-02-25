@@ -21,7 +21,7 @@
 
         /* layout stuff */
         --main-width: 1124px;
-        --argh2-ul-width: 250px;
+        --argh2-ul-width: 300px;
         --main-padding: 0px;
         --navbar-height: 60px; 
         --navbar-width: 250px; 
@@ -173,7 +173,7 @@
         list-style: none;
         padding: 0;
         margin: 0;
-        border: 1px solid var(--darker-border);
+        border: 3px solid var(--darker-border);
         background: var(--lighter-bg);
         width: var(--argh2-ul-width);
         font-size: var(--ul-font-size);
