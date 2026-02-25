@@ -19,7 +19,7 @@
         --nav-button-font-size: 6px;
 
         /* layout stuff */
-        --main-width: 600px;
+        --main-width: 1500px;
         --argh2-ul-width: 100%;
         --main-padding: 0px;
         --gap: 20px;
@@ -50,13 +50,9 @@
         padding: var(--main-padding);
         max-width: var(--main-width);
         min-width: var(--main-width);
-        min-height: 400px;
         background-position: center;
         color: var(--text-color);
         border: none;
-        font-size: 10px; 
-        box-sizing: border-box;
-        margin: var(--gap) auto 0;
     }
 
     .main {
@@ -64,11 +60,10 @@
         padding: none;
         max-width: var(--main-width);
         min-width: var(--main-width);
-        min-height: 400px;
+        min-height: 850px;
         background-position: center;
         color: var(--text-color);
         border: 1px solid var(--border);
-        font-size: 10px; 
         box-sizing: border-box;
         margin: var(--gap) auto;
     }
