@@ -17,17 +17,17 @@
         --base-font-size: 25x;
         --small-font-size: 20px;
         --ul-font-size: 20px;
-        --nav-button-font-size: 25px;
+        --nav-button-font-size: 20px;
 
         /* layout stuff */
         --main-width: 1124px;
         --argh2-ul-width: 300px;
         --main-padding: 0px;
-        --navbar-height: 60px; 
+        --navbar-height: 40px; 
         --navbar-width: 250px; 
         --gab: 25px;
         --nav-gap: 25px; 
-        --nav-button-padding: 2px; 
+        --nav-button-padding: 1px; 
         --nav-button-radius: 0px;
         --argh2-offset: 40px; /* push argh2 further right */
     }
