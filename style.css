@@ -41,6 +41,7 @@
         padding: 0;
         margin: 0 auto;
         font-size: var(--base-font-size);
+        box-shadow: 2px 2px color-mix(in srgb, var(--border1) 95%, black);
     }
 
     main {
@@ -60,7 +61,6 @@
         padding-right: var(--horizontal-padding);
         position: relative;
         margin: 100px auto;
-        text-shadow: 2px 2px color-mix(in srgb, var(--border1) 95%, black);
     }
 
     footer {
