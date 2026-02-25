@@ -140,7 +140,8 @@
     #navbar ul {
         list-style: none;
         padding: 0;
-        margin: -25px;
+        margin-left: -25px;
+        margin-right: -25px;
         gap: var(--nav-gap);
         display: flex;
         align-items: center;
