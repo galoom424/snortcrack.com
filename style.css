@@ -197,3 +197,14 @@
     .text-primary { color: var(--text-color); }
     .fs-base { font-size: var(--base-font-size); }
     .fs-small { font-size: var(--small-font-size); }
+    
+    .measure-60 {
+        max-width: 60rem;
+    }
+
+    .p-centered {
+        display: block;
+        float: none;
+        margin-right:auto ;
+        margin-left: auto;
+    }
