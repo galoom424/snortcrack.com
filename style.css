@@ -64,7 +64,6 @@
 
     .main {
         background-color: var(--main-bg);
-        padding: 15px. 0px. 0px. 0px;
         max-width: var(--main-width);
         min-width: var(--main-width);
         min-height: 850px;
@@ -132,8 +131,7 @@
 
 
     footer {
-        margin-top: 20px;
-        margin-right: 5px;
+        border-top: var(--border);
         text-align: right;
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
@@ -151,16 +149,13 @@
         font-family: var(--heading-font);
         font-size: 20px;
         text-align: left;
-        margin-left: 25px;
         margin-bottom: 15px;
-        margin-top: 15px;
     }
 
     .argh {
           display: flex;
           justify-content: right;
           align-items: right;
-          margin: 25px;
     }
 
     .argh1 {
