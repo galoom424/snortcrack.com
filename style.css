@@ -4,8 +4,8 @@
         --bg-color: #000000; 
         --main-bg: #111111;  
         --lighter-bg: #3c3c3c; 
-        --border: #747373;
-        --darker-border: #181818; 
+        --border: #4c4c4c;
+        --darker-border: #626262; 
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
