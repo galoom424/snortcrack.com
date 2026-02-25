@@ -13,6 +13,7 @@
         /* text */
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
+        --argh-font-size: 40px;
         --base-font-size: 25x;
         --small-font-size: 20px;
         --ul-font-size: 20px;
@@ -79,6 +80,12 @@
         list-style: none;
         padding: 0;
         margin: 0;
+        border-top: 4px solid color-mix(in srgb, var(--border2) 95%, black);
+        border-right: 4px solid color-mix(in srgb, var(--border) 95%, black);
+        border-bottom: 4px solid color-mix(in srgb, var(--border) 95%, black);
+        border-left: 4px solid color-mix(in srgb, var(--border2) 95%, black);
+        background: color-mix(in srgb, var(--lighter-bg) 95%, black);
+        color: color-mix(in srgb, var(--text-color) 95%, black);
         display: flex;
         gap: var(--nav-gap);
         align-items: center;
@@ -159,6 +166,7 @@
           justify-content: right;
           align-items: right;
           margin: 25px;
+          font-size: var(--argh-font-size)
     }
 
     .argh1 {
