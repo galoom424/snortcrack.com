@@ -17,7 +17,7 @@
 
         /* layout stuff */
         --main-width: 600px;
-        --argh2-ul-width: 100px;
+        --argh2-ul-width: 150px;
         --main-padding: 20px;
         --gap: 20px;
     }
@@ -123,7 +123,7 @@
     }
     
     .argh2 li {
-        padding: 6px 10px;
+        padding: 3x;
         border-bottom: 1px solid var(--darker-border);
     }
     
