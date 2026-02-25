@@ -3,13 +3,13 @@
         /* colors */
         --bg-color: #000000; 
         --main-bg: #111111;  
-        --lighter-bg: #3c3c3c; 
+        --lighter-bg: #282828; 
         --border: #4c4c4c;
-        --darker-border: #272727; 
+        --darker-border: #1d1d1d; 
         --text-color: #ffffff; 
         --nav-focus-outline: var(--border);
         --nav-hover-bg: var(--lighter-bg);
-        --button-bg: #313131;
+        --button-bg: #1b1b1b;;
 
         /* text */
         --body-font: 'Nunito', sans-serif;
