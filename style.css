@@ -110,19 +110,17 @@
         min-width: var(--navbar-width);
         max-width: var(--navbar-width);
     }
-
-.nav-button:hover {
-    border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
-    border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
-    border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
-    border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
-    background: color-mix(in srgb, var(--lighter-bg) 90%, black);
-}
-
-    .nav-button:focus {
-        outline: 3px solid var(--nav-focus-outline);
-        outline-offset: 2px;
+    
+    .nav-button:hover {
+        margin-top: 1px;
+        margin-left: 1px;
+        border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
+        border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
+        border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
+        border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
+        background: color-mix(in srgb, var(--lighter-bg) 90%, black);
     }
+
 
     footer {
         margin-top: 20px;
