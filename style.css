@@ -14,7 +14,6 @@
         width: 100%;
         background-color: ;
         height: 150px;
-        background-image: var(--header-image);
         background-size: 100%;
     }
 
@@ -31,7 +30,9 @@
         padding: 10px;
         max-width: 600px;
         height: 300px;
-        flex: 1;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
         background-color: #202020;
         color: white;
         border: 3px solid #ffffff;
