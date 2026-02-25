@@ -14,14 +14,14 @@
         /* text */
         --body-font: 'Nunito', sans-serif;
         --heading-font: 'pgothic', sans-serif;
-        --base-font-size: 30x;
-        --small-font-size: 25px;
-        --ul-font-size: 25px;
+        --base-font-size: 25x;
+        --small-font-size: 20px;
+        --ul-font-size: 20px;
         --nav-button-font-size: 25px;
 
         /* layout stuff */
         --main-width: 1100px;
-        --argh2-ul-width: 200px;
+        --argh2-ul-width: 250px;
         --main-padding: 0px;
         --gap: 25px;
         --navbar-height: 60px; 
@@ -29,7 +29,7 @@
         --nav-gap: 25px; 
         --nav-button-padding: 2px; 
         --nav-button-radius: 0px;
-            --argh2-offset: 40px; /* push argh2 further right */
+        --argh2-offset: 40px; /* push argh2 further right */
     }
 
     html {
@@ -95,7 +95,7 @@
         justify-content: center;
         color: var(--text-color);
         text-decoration: none;
-        border:4px solid var(--darker-border);
+        border:3px solid var(--darker-border);
         background: var(--button-bg);
         border-radius: var(--nav-button-radius);
         font-size: var(--nav-button-font-size);
@@ -111,7 +111,7 @@
     }
 
     .nav-button:focus {
-        outline: 5px solid var(--nav-focus-outline);
+        outline: 3px solid var(--nav-focus-outline);
         outline-offset: 2px;
     }
 
@@ -131,7 +131,7 @@
 
     .title {
         font-family: var(--heading-font);
-        font-size: 15px;
+        font-size: 20px;
         text-align: left;
         margin: 25px;
     }
@@ -183,6 +183,7 @@
     
     .argh2 li {
         padding: 6px 10px;
+        text-align: center;
         border-bottom: 1px solid var(--darker-border);
     }
     
