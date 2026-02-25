@@ -14,21 +14,21 @@
         --argh-font-size: 40px;
         --base-font-size: 25x;
         --small-font-size: 15px;
-        --footer-font-size: 12px;
         --ul-font-size: 20px;
         --nav-button-font-size: 20px;
+        --footer-font-size: 12px;
 
         /* layout stuff */
         --main-width: 1075px;
         --main-height: 800px;
-        --ul-width: 300px;
-        --navbar-height: 50px; 
-        --navbar-width: 250px;
         --horizontal-padding: 25px; 
         --vertical-padding: 15px; 
-        --footer-padding: 10px; 
+        --ul-width: 300px;
+        --navbar-height: 50px; 
+        --navbar-width: 250px; 
         --nav-button-padding: 1px; 
         --nav-button-radius: 0px;
+        --footer-padding: 10px;
     }
 
     html {
