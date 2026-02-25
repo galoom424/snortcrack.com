@@ -64,9 +64,9 @@
         min-height: 850px;
         background-position: center;
         color: var(--text-color);
-        border-top: 3px solid var(--border2);
+        border-top: 4px solid var(--border2);
         border-right: 4px solid var(--border);
-        border-bottom: 3px solid var(--border);
+        border-bottom: 4px solid var(--border);
         border-left: 4px  solid var(--border2);
         box-sizing: border-box;
         margin: var(--gap) auto;
@@ -114,9 +114,9 @@
     
     .nav-button:hover {
         transform: translate(1px, 1px);
-        border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
+        border-top: 4px solid color-mix(in srgb, var(--border2) 90%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
-        border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
+        border-bottom: 4px solid color-mix(in srgb, var(--border) 90%, black);
         border-left: 4px solid color-mix(in srgb, var(--border2) 90%, black);
         background: color-mix(in srgb, var(--lighter-bg) 90%, black);
         color: color-mix(in srgb, var(--text-color) 90%, black);
@@ -196,9 +196,9 @@
     .argh2 li {
         padding: 6px;
         text-align: center;
-        border-top: 3px solid var(--border2);
+        border-top: 4px solid var(--border2);
         border-right: 4px solid var(--border);
-        border-bottom: 3px solid var(--border);
+        border-bottom: 4px solid var(--border);
         border-left: 4px  solid var(--border2);
     }
 
