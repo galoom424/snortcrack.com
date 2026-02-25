@@ -70,7 +70,7 @@
         font-size: var(--small-font-size);
         font-family: var(--heading-font);
         color: var(--text-color);
-        position:absolute;
+        position: relative;
         bottom:0;
     }
 
@@ -139,6 +139,7 @@
         list-style: none;
         padding: 0;
         margin: 0;
+        gap: auto;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -174,7 +175,9 @@
     .nav-button:hover {
         border-top: 4px solid color-mix(in srgb, var(--border2) 95%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 95%, black);
-        border-bottom: 4px solid color-mix(in srgb, var(--border) 95%, black);
+        border-bottom: 4px solid color-mix(
+    }
+in srgb, var(--border) 95%, black);
         border-left: 4px solid color-mix(in srgb, var(--border2) 95%, black);
         background: color-mix(in srgb, var(--lighter-bg) 95%, black);
         color: color-mix(in srgb, var(--text-color) 95%, black);
