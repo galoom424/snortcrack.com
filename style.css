@@ -113,7 +113,7 @@
     }
     
     .nav-button:hover {
-        transform: translateY(4px);
+        transform: translateY(1px);
         border-top: 3px solid color-mix(in srgb, var(--border2) 90%, black);
         border-right: 4px solid color-mix(in srgb, var(--border) 90%, black);
         border-bottom: 3px solid color-mix(in srgb, var(--border) 90%, black);
