@@ -23,9 +23,9 @@
         --argh2-ul-width: 300px;
         --main-padding: 0px;
         --gap: 20px;
-        --navbar-height: 100px; 
+        --navbar-height: 60px; 
         --navbar-width: 350px; 
-        --nav-gap: 8px; 
+        --nav-gap: 25px; 
         --nav-button-padding: 2px; 
         --nav-button-radius: 0px;
     }
@@ -88,6 +88,7 @@
     .nav-button {
         display: inline-flex;
         align-items: center;
+        text-align: center;
         gap: 6px;
         padding: var(--nav-button-padding);
         color: var(--text-color);
