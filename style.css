@@ -56,7 +56,7 @@
         border: none;
         font-size: 10px; 
         box-sizing: border-box;
-        margin: var(--gap) auto;
+        margin: var(--gap) auto 0;
     }
 
     .main {
