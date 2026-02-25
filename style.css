@@ -198,6 +198,7 @@
     .fs-base { font-size: var(--base-font-size); }
     .fs-small { font-size: var(--small-font-size); }
     
+    
     .measure-60 {
         max-width: 60rem;
     }
@@ -207,4 +208,33 @@
         float: none;
         margin-right:auto ;
         margin-left: auto;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: .4rem;
+        padding-left: .4rem;
+    }
+
+    .mb2 {
+        margin-bottom: .5rem;
+    }
+
+    .mb4 {
+        margin-bottom: 2rem;
+    }
+
+    hr.solid-header {
+        border: none;
+    }
+
+    .mh1 {
+        height: 1rem;
+        max-height: 1rem;
+    }
+
+    .bdp-gray {
+        background: radial-gradient(#777 .5px, #00000000 1px) 0 0/3px 3px,var(--main-bg)
     }
