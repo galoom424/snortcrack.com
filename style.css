@@ -195,7 +195,7 @@
     .argh2 li {
         padding: 6px;
         text-align: center;
-        border-bottom: 4px solid var(--border);
+        border-bottom: 4px solid var(--border2);
     }
     
     .argh2 li:last-child {
