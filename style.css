@@ -188,15 +188,6 @@ between the sidebars! */
         border: 3px solid #000000;
         font-size: smaller;
     }
-    
-    .argh {
-        background-color: #dedede;    
-        padding: 20px;
-        padding-left: 0;
-        padding-right: 0;
-        height: 100%;
-        border: 3px solid #000000;
-    }
 
     /* what's this "order" stuff about??
 allow me to explain!
