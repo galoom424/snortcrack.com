@@ -26,7 +26,7 @@
         --navbar-height: 50px; 
         --navbar-width: 250px; 
         --gap: 25px;
-        --nav-gap: 25px; 
+        --nav-gap: 27px; 
         --nav-button-padding: 1px; 
         --nav-button-radius: 0px;
         --argh2-offset: 40px; /* push argh2 further right */
@@ -80,7 +80,7 @@
         font-family: var(--heading-font);
         font-size: 20px;
         text-align: left;
-        margin-bottom: 15px;:
+        margin-bottom: 15px;
     }
 
 
