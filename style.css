@@ -508,3 +508,14 @@
         vertical-align: inherit;
         unicode-bidi: isolate;
     }
+
+    .blockquote {
+        margin-right: 0;
+        margin-left: 0;
+        padding: .4rem .8rem;
+        border-left: .1rem solid #000
+    }
+
+    .blockquote p:last-child {
+        margin-bottom: 0;
+    }
