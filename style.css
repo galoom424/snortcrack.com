@@ -66,7 +66,7 @@
     footer {
         border-top: 1px solid var(--border1);
         min-width: var(--main-width);
-        text-align: left;
+        text-align: right;
         font-size: var(--footer-font-size);
         font-family: var(--heading-font);
         color: var(--text-color);
@@ -99,7 +99,7 @@
     }
 
     .argh1 {
-        text-align: center;
+        text-align: left;
         width: 100%;
         margin: auto;
         font-size: var(--base-font-size)
