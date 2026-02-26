@@ -957,12 +957,21 @@
         display: block
     }
 
-    .header {
+    header {
         display: none;
     }
 
-    .footer {
+    footer {
         display: none;
+    }
+
+    footer {
+        margin-top: 2rem;
+        color: #000;
+    }
+
+    footer {
+        clear:both
     }
 
     .btn {
