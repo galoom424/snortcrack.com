@@ -840,3 +840,19 @@
     .no-decoration {
     text-decoration: none
     }
+
+    a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #002dce;
+    outline: 0
+    }
+
+    a:focus {
+    box-shadow: 0 0 0 .1rem rgba(0,0,0,.2)
+    }
+
+    a.active,a:active,a:focus,a:hover {
+    text-decoration: none;
+    color: #002dce
+    }
