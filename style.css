@@ -377,7 +377,7 @@
     }
 
     .col-1 {
-        width: 8.3333333%
+        width: 8.3333333%;
     }
 
     .col-2 {
@@ -385,15 +385,15 @@
     }
 
     .col-3 {
-        width: 25%
+        width: 25%;
     }
 
     .col-6 {
-        width: 50%
+        width: 50%;
     }
 
     .col-9 {
-        width: 75%
+        width: 75%;
     }
 
     .col-12 {
@@ -401,7 +401,11 @@
     }
 
     .col-sm-4 {
-        width: 33.33333333%
+        width: 33.33333333%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
     }
 
     .col-sm-12 {
@@ -410,6 +414,10 @@
 
     .col-md-4 {
         width: 33.33333333%;
+    }
+
+    .col-md-6 {
+        width: 50%;
     }
 
     .col-md-12 {
