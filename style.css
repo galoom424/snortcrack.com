@@ -105,7 +105,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: var(--small-font-size)
+        font-size: var(--base-font-size)
     }
 
     .argh2 {
@@ -204,6 +204,7 @@
     .text-accent { color: var(--border1); }
     .text-primary { color: var(--text-color); }
     .fs-base { font-size: var(--base-font-size); }
+
     .fs-small { font-size: var(--small-font-size); }
     
 
