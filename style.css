@@ -132,6 +132,7 @@
         font-size: var(--ul-font-size);
         box-sizing: border-box;
         text-align: right;
+        border-bottom: 1px  solid var(--border1);
     }
     
     .argh2 li {
