@@ -275,17 +275,17 @@
 
     .hr {
         overflow: visible;
+        box-sizing: content-box;
+        height: 0;
+    }
+
+    .hr {
+        overflow: visible;
         height: 1px;
         margin: .5rem 0 .5rem;
         color: #333;
         border: none;
         border-top: 1px dashed #000;
-    }
-
-    .hr {
-        overflow: visible;
-        box-sizing: content-box;
-        height: 0;
     }
 
     .hr.solid {
@@ -773,4 +773,23 @@
         margin-top: 0;
         margin-bottom: .5em;
         color: inherit
+    }
+
+    p {
+        line-height: 1.5rem;
+        margin: 0 0 1.2rem
+    }
+
+    a,ins,u {
+        text-decoration: underline
+    }
+
+    p a {
+        text-decoration: underline
+    }
+
+    abbr[title] {
+        cursor: help;
+        text-decoration: none;
+        border-bottom: .1rem dotted
     }
