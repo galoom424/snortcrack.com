@@ -508,6 +508,33 @@
         opacity: .5
     }
 
+    .btn-nav.center {
+    padding: .05rem 0 .05rem .05rem
+    }
+
+    .btn-nav.round {
+    border-radius: .75rem
+    }
+
+    .btn-nav.oval {
+    border-radius: 50%
+    }
+
+    .btn-nav.roundtl {
+    border-radius: .75rem 0 0 0
+    }
+
+    .btn-nav.roundbr {
+    border-radius: 0 0 .75rem 0
+    }
+
+    .btn-nav.circle {
+    width: 3rem;
+    height: 3rem;
+    padding-top: .85rem;
+    border-radius: 50%
+    }
+
     .black {
         color: #000;
         fill: #000;
