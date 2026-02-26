@@ -334,6 +334,42 @@
         flex-wrap: wrap;
     }
 
+    .columns.col-loose {
+        margin-right: -1rem;
+        margin-left: -1rem
+    }
+
+    .columns.col-loose>.column {
+        padding-right: 1rem;
+        padding-left: 1rem
+    }
+
+    .columns.col-gapless {
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .columns.col-gapless>.column {
+        padding-right: 0;
+        padding-left: 0
+    }
+
+    .columns.col-tight {
+        margin-right: -.2rem;
+        margin-left: -.2rem
+    }
+
+    .columns.col-tight>.column {
+        padding-right: .2rem;
+        padding-left: .2rem
+    }
+
+    .columns.col-oneline {
+        overflow-x: auto;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+
     .col-1 {
         width: 8.3333333%
     }
