@@ -929,8 +929,3 @@
     .header.container {
         max-width: inherit;
     }
-
-    .responsive-30-phone {
-        min-width: 30rem;
-        max-width: 100%;
-    }
