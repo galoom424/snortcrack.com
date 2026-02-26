@@ -2,3 +2,14 @@
   <a><center><img src="https://hongkongmfr.org/assets/barraconstruction.gif" width="506.47" height="45"/></center></a>
   <a><center>just a week away</center></a>
 </html>
+
+
+<div class="navbar">
+          <nav id="navbar">
+            <ul>
+              <li><a class="nav-button" href="#">Home</a></li>
+              <li><a class="nav-button" href="https://www.youtube.com/@carpmachinegun">Stream</a></li>
+              <li><a class="nav-button" href="https://discord.gg/PG8Vx35y5W">Discord</a></li>
+              <li><a class="nav-button" href="https://www.youtube.com/@carpmachinegun">Info</a></li>
+            </ul>
+          </nav>
