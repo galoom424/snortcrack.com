@@ -1010,3 +1010,65 @@
         border: 1px solid #aaa;
         box-shadow: 2px 2px #ddd
     }
+
+    .pagination {
+        display: -ms-flexbox;
+        display: flex;
+        margin: .2rem 0;
+        padding: .2rem 0;
+        list-style: none
+    }
+
+    .pagination .page-item {
+        margin: .2rem .05rem
+    }
+
+    .pagination .page-item span {
+        display: inline-block;
+        padding: .2rem .2rem
+    }
+
+    .pagination .page-item a {
+        display: inline-block;
+        padding: .2rem .4rem;
+        text-decoration: none;
+        border-radius: 0
+    }
+
+    ul.tree {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none
+    }
+
+    ul.tree li {
+        margin: 0 0 0 3rem;
+        padding: 0;
+        list-style-type: none;
+        border-left: 1px solid #000
+    }
+
+    ul.tree>li:last-child {
+        margin: 0 0 0 3rem;
+        padding: 0;
+        border-left: 1px solid transparent
+    }
+
+    ul.tree li span {
+        position: relative;
+        display: inline-block;
+        padding: .5rem .5rem .5rem 2rem
+    }
+
+    ul.tree li span::before {
+        position: absolute;
+        top: 0;
+        bottom: 50%;
+        left: -1px;
+        width: 2rem;
+        content: '';
+        border: 1px solid #000;
+        border-top: 0 none transparent;
+        border-right: 0 none transparent
+    }
