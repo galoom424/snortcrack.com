@@ -245,6 +245,30 @@
         margin-bottom: 2rem;
     }
 
+    .mt0 {
+        margin-top: 0;
+    }
+
+    .mt1 {
+        margin-top: .25rem;
+    }
+
+    .mt2 {
+        margin-top: .5rem;
+    }
+
+    .mt3 {
+        margin-top: 1rem;
+    }
+
+    .pb0 {
+        padding-bottom: 0;
+    }
+
+    .pt0 {
+        padding-top: 0
+    }
+
     .hr {
         overflow: visible;
         box-sizing: content-box;
@@ -312,6 +336,14 @@
         flex-wrap: wrap;
     }
 
+    .col-1 {
+        width: 8.3333333%
+    }
+
+    .col-2 {
+        width: 16.66666667%;
+    }
+
     .col-3 {
         width: 25%
     }
@@ -328,8 +360,16 @@
         width: 100%;
     }
 
+    .col-sm-4 {
+        width: 33.33333333%
+    }
+
     .col-sm-12 {
         width: 100%;
+    }
+
+    .col-md-4 {
+        width: 33.33333333%;
     }
 
     .col-md-12 {
@@ -541,4 +581,32 @@
 
     .blockquote p:last-child {
         margin-bottom: 0;
+    }
+
+    .p-centered {
+        display: block;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .ol,ul {
+        margin: .4rem 0 .4rem 1.6rem;
+        padding: 0
+    }
+
+    .ul {
+        list-style: disc outside;
+    }
+
+    .ul ul {
+        list-style-type: circle;
+    }
+
+    .ol {
+        list-style: decimal outside;
+    }
+
+    .ol ol {
+        list-style-type: lower-alpha
     }
