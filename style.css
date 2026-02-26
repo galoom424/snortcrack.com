@@ -661,17 +661,17 @@
         padding-left: .3rem;
         letter-spacing: .1rem;
         text-transform: uppercase;
-        border: 1px dotted #000
+        border: 1px dotted #000;
     }
 
     .table {
-        font-size: : 1rem;
+        font-size: 1rem;
         width: 100%;
         border-spacing: 0;
         border-collapse: collapse;
         text-align: left;
         border-top: 2px dotted #ddd;
-        box-shadow: 2px 2px #ddd
+        box-shadow: 2px 2px #ddd;
     }
 
     .table td {
@@ -704,7 +704,7 @@
     }
 
     .td {
-        display: : table-cell;
+        display: table-cell;
         vertical-align: inherit;
         unicode-bidi: isolate;
     }
@@ -860,4 +860,52 @@
     .div {
         display: block;
         unicode-bidi: isolate;
+    }
+
+    .logo {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .logo-logotype {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: condensed;
+        padding-right: 1rem;
+        white-space: nowrap;
+        text-decoration: none;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto
+    }
+
+    .logo-logotype h1 {
+        font-size: 16px;
+    }
+
+    .logo-logotype a {
+        text-decoration: none;
+    }
+
+    .logo-banner {
+        display: -ms-flexbox;
+        display: flex;
+        padding-bottom: 2px;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .logo-banner img {
+        width: 100%;
+        height: 10px
+    }
+
+    .logo-banner svg {
+        width: 100%;
+        height: 100%
     }
