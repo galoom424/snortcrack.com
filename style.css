@@ -974,6 +974,10 @@
         border-style: none
     }
 
+    img.splash {
+        width: 100%
+    }
+
     .img-responsive {
         display: block;
         max-width: 100%;
