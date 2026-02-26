@@ -288,12 +288,12 @@
         border-top: 1px dashed #000;
     }
 
-    .hr.solid {
+    hr.solid {
         border-top: none;
         border-bottom: 1px solid #000
     }
 
-    .hr.solid-header {
+    hr.solid-header {
         border: none;
     }
 
@@ -763,24 +763,24 @@
         margin-left: auto;
     }
     
-    .ol,ul {
+    ol,ul {
         margin: .4rem 0 .4rem 1.6rem;
         padding: 0
     }
 
-    .ul {
+    ul {
         list-style: disc outside;
     }
 
-    .ul ul {
+    ul ul {
         list-style-type: circle;
     }
 
-    .ol {
+    ol {
         list-style: decimal outside;
     }
 
-    .ol ol {
+    ol ol {
         list-style-type: lower-alpha
     }
 
@@ -877,18 +877,18 @@
     text-decoration: none
     }
 
-    .a {
+    a {
     cursor: pointer;
     text-decoration: underline;
     color: #002dce;
     outline: 0
     }
 
-    .a:focus {
+    a:focus {
     box-shadow: 0 0 0 .1rem rgba(0,0,0,.2)
     }
 
-    .a.active,a:active,a:focus,a:hover {
+    a.active,a:active,a:focus,a:hover {
     text-decoration: none;
     color: #002dce
     }
