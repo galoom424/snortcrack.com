@@ -593,6 +593,10 @@
         background: #fff;
     }
 
+    .bg-white {
+        background: #fff
+    }
+
     .b--white {
         border-color: #fff;
     }
@@ -741,4 +745,12 @@
 
     .ol ol {
         list-style-type: lower-alpha
+    }
+
+    .w100 {
+        width: 100%
+    }
+
+    .h100 {
+        min-height: 100%
     }
