@@ -259,7 +259,8 @@
         max-height: 1rem;
     }
 
-    .bdp-gray { background: radial-gradient(#777 .5px,transparent 1px) 0 0/3px 3px,var(-bg-color)
+    .bdp-gray { 
+        background: radial-gradient(#777 .5px,transparent 1px) 0 0/3px 3px,var(-bg-color)
     }
 
     .line {
