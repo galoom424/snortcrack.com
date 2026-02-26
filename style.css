@@ -492,3 +492,9 @@
         unicode-bidi: isolate;
         border-color: inherit;
     }
+
+    .td {
+        display: : table-cell;
+        vertical-align: inherit;
+        unicode-bidi: isolate;
+    }
