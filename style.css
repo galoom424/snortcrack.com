@@ -275,17 +275,17 @@
 
     .hr {
         overflow: visible;
-        box-sizing: content-box;
-        height: 0;
-    }
-
-    .hr {
-        overflow: visible;
         height: 1px;
         margin: .5rem 0 .5rem;
         color: #333;
         border: none;
         border-top: 1px dashed #000;
+    }
+
+    .hr {
+        overflow: visible;
+        box-sizing: content-box;
+        height: 0;
     }
 
     .hr.solid {
