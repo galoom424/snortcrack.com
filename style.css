@@ -453,7 +453,7 @@
     }
 
     .btn-classic.active,
-    .btn-classiv:active {
+    .btn-classic:active {
         text-decoration: none;
         color: #fff;
         border-color: #000;
