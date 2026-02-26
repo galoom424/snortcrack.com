@@ -470,3 +470,17 @@
         text-transform: uppercase;
         border: 1px dotted #000
     }
+
+    .table {
+        font-size: : 1rem;
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        text-align: left;
+        border-top: 2px dotted #ddd;
+        box-shadow: 2px 2px #ddd
+    }
+
+    .table-light-silver {
+        border-left: 4px solid #aaa
+    }
