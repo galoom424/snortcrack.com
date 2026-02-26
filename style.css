@@ -142,8 +142,8 @@
     #navbar ul {
         list-style: none;
         padding: 0;
-        margin-left: -25px;
-        margin-right: -25px;
+        margin-left: -28x;
+        margin-right: -28x;
         gap: var(--horizontal-padding);
         display: flex;
         align-items: center;
