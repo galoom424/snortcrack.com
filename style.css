@@ -496,6 +496,10 @@
         border-left: 4px solid #aaa
     }
 
+    .table tbody th {
+        border: .1rem solid #bfbfbf
+    }
+
     .tr {
         display: table-row;
         vertical-align: inherit;
