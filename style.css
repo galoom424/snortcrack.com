@@ -105,7 +105,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: var(--large-font-size)
+        font-size: var(--small-font-size)
     }
 
     .argh2 {
