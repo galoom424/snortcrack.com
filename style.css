@@ -965,3 +965,32 @@
     .header.container {
         max-width: inherit;
     }
+
+    .shadow {
+        box-shadow: 2px 2px #ddd
+    }
+
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ccc
+    }
+
+    .img-fit-cover {
+        object-fit: cover
+    }
+
+    .img-fit-contain {
+        object-fit: contain
+    }
+
+    .img-card {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        border: 1px solid #aaa;
+        box-shadow: 2px 2px #ddd
+    }
