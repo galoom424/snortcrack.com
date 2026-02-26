@@ -482,6 +482,16 @@
         box-shadow: 2px 2px #ddd
     }
 
+    .table.td {
+        line-height: 1.4rem;
+        overflow: hidden;
+        height: 1.85rem;
+        padding: .2rem .4rem 0;
+        text-overflow: ellipsis;
+        border: .1rem solid #bfbfbf;
+
+    }
+
     .table-light-silver {
         border-left: 4px solid #aaa
     }
