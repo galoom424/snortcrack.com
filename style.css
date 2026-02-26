@@ -970,6 +970,10 @@
         box-shadow: 2px 2px #ddd
     }
 
+    img {
+        border-style: none
+    }
+
     .img-responsive {
         display: block;
         max-width: 100%;
