@@ -856,3 +856,8 @@
     text-decoration: none;
     color: #002dce
     }
+
+    .div {
+        display: block;
+        unicode-bidi: isolate;
+    }
