@@ -273,7 +273,13 @@
         padding-top: 0
     }
 
-    .hr {
+    hr {
+        overflow: visible;
+        box-sizing: content-box;
+        height: 0
+    }
+
+    hr {
         overflow: visible;
         height: 1px;
         margin: .5rem 0 .5rem;
