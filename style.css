@@ -448,6 +448,66 @@
         background: #000;
     }
 
+    .btn-nav-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-nav {
+        font-family: 'Univers LT Pro',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1rem;
+        position: relative;
+        top: -.125rem;
+        display: inline-block;
+        height: 1.5rem;
+        margin-right: .5rem;
+        padding: .25rem 0 .05rem 0;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        text-decoration: none;
+        border: .1rem solid #000;
+        outline: 0;
+        box-shadow: 2px 2px #bbb;
+        -webkit-appearance: none;
+        appearance: none
+    }
+
+    .btn-nav:focus {
+        box-shadow: 0 0 0 .1rem rgba(0,0,0,.2)
+    }
+
+    .btn-nav:focus,.btn-nav:hover {
+        text-decoration: none;
+        color: #fff;
+        border-color: #000;
+        background: #000;
+        fill: #fff
+    }
+
+    .btn-nav.active,.btn-nav:active {
+        text-decoration: none;
+        color: #000;
+        background: #fff
+    }
+
+    .btn-nav.active.loading::after,.btn-nav:active.loading::after {
+        border-bottom-color: #fff;
+        border-left-color: #fff
+    }
+
+    .btn-nav.disabled,.btn-nav:disabled,.btn-nav[disabled] {
+        cursor: default;
+        pointer-events: none;
+        opacity: .5
+    }
+
     .black {
         color: #000;
         fill: #000;
