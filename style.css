@@ -81,10 +81,10 @@
         display: flex;
         justify-content: left;
         align-items: left;
+        width: 100%
     }
     
     .title-text {
-        width: 100%;
         font-style: normal;
         font-stretch: condensed;
         font-family: var(--title-font);
@@ -96,6 +96,7 @@
         justify-content: flex-end;
         align-items: center;
         border: 1px solid black;
+
     }
     
     .seperator {
