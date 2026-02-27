@@ -1121,3 +1121,17 @@
             max-width: 20rem
         }
     }
+
+    @media print {
+        header {
+            display: none;
+        }
+
+        footer {
+            display: none;
+        }
+
+        .btn {
+            display: none
+        }
+    }
