@@ -14,28 +14,15 @@
             </ul>
           </nav>
 
-footer {
-        min-width: var(--main-width);
-        text-align: left;
-        font-size: var(--footer-font-size);
-        font-family: var(--heading-font);
-        color: var(--text-color);
-        position: absolute;
-        padding-top: var(--footer-padding);
-        bottom: var(--footer-padding);
-        left: var(--horizontal-padding);
-    }
-
-    body {
+body {
         font-family: var(--body-font);
         color: var(--text-color);
         background-color: var(--bg-color);
-        padding: 0;
         margin: 0 auto;
         font-size: var(--base-font-size);
     }
 
-    main {
+main {
         background-color: var(--main-bg);
         background-color: var(--main-bg);
         background-position: center;
@@ -46,11 +33,19 @@ footer {
         border-right: 1px solid var(--border1);
         border-bottom: 1px solid var(--border1);
         border-left: 1px solid var(--border1);
-        padding-top: var(--vertical-padding);
-        padding-bottom: var(--vertical-padding);
-        padding-left: var(--horizontal-padding);
-        padding-right: var(--horizontal-padding);
         position: relative;
         margin: 100px;
         box-shadow: 2px 2px 95%, black
     }
+
+footer {
+        min-width: var(--main-width);
+        text-align: left;
+        font-size: var(--footer-font-size);
+        font-family: var(--heading-font);
+        color: var(--text-color);
+        position: absolute;
+        bottom: var(--footer-padding);
+    }
+
+    
