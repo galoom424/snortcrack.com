@@ -18,16 +18,15 @@
         --footer-font-size: 12px;
         
         /* layout stuff */
-        --main-width: 894px;
+        --main-width: 900px;
         --main-height: 1200px;
-        --horizontal-padding: 15px;
+        --horizontal-padding: 20px;
         --vertical-padding: 15px;
         --ul-width: 300px;
         --navbar-height: 25px;
         --navbar-width: 200px;
         --nav-button-padding: 5;
         --nav-button-radius: 0px;
-        --footer-padding: 10px;
     }
     
     html {
@@ -70,8 +69,8 @@
         font-family: var(--heading-font);
         color: var(--text-color);
         position: absolute;
-        padding-top: var(--footer-padding);
-        bottom:var(--footer-padding);
+        padding-top: var(--vertical-padding);
+        bottom:var(--vertical-padding);
         left: var(--horizontal-padding);
     }
     
@@ -79,6 +78,7 @@
         display: flex;
         justify-content: left;
         align-items: left;
+        padding-top: var(--vertical-padding);
         width: 100%
     }
     
@@ -94,7 +94,8 @@
         justify-content: flex-end;
         align-items: center;
         border: 1px solid black;
-
+        margin-left: 15px;
+        margin-right: 15px;
     }
     
     .seperator {
