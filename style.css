@@ -87,7 +87,7 @@
     }
 
     footer {
-        border-top: 1px solid var(--border1);
+        border-top: 1px dotted var(--border1);
         min-width: var(--main-width);
         text-align: right;
         font-size: var(--footer-font-size);
@@ -110,7 +110,7 @@
         padding-left: .3px;
         letter-spacing: .1px;
         text-transform: uppercase;
-        border: 1px dotted #000;
+        border: 1px solid #000;
     }
 
     .ver {
