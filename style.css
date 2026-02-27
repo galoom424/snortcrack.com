@@ -36,7 +36,6 @@
     
     body {
         font-family: var(--body-font);
-        color: var(--text-color);
         background-color: var(--bg-color);
         padding: 100px;
         font-size: var(--base-font-size);
@@ -46,7 +45,6 @@
     
     
     main {
-        background-color: var(--main-bg);
         background-color: var(--main-bg);
         background-position: center;
         max-width: var(--main-width);
