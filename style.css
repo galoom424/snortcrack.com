@@ -63,17 +63,7 @@
         box-shadow: 2px 2px 95%, black
     }
 
-    footer {
-        min-width: var(--main-width);
-        text-align: left;
-        font-size: var(--footer-font-size);
-        font-family: var(--heading-font);
-        color: var(--text-color);
-        position: absolute;
-        padding-top: var(--footer-padding);
-        bottom: var(--footer-padding);
-        left: var(--horizontal-padding);
-    }
+    
 
     .title {
         font-family: var(--heading-font);
