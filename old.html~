@@ -49,3 +49,34 @@ footer {
     }
 
     
+
+    :root {
+        /* colors */
+        --bg-color: #ededed;
+        --main-bg: #ffffff;
+        --lighter-bg: #ffffff;
+        --border1: #777;
+        --text-color: #000000;
+
+        /* text */
+        --body-font: 'Roboto', sans-serif;
+        --heading-font: 'pgothic', sans-serif;
+        --large-font-size: 40px;
+        --base-font-size: 16x;
+        --small-font-size: 12px;
+        --ul-font-size: 20px;
+        --nav-button-font-size: 20px;
+        --footer-font-size: 12px;
+
+        /* layout stuff */
+        --main-width: 894px;
+        --main-height: 1200px;
+        --horizontal-padding: 15px;
+        --vertical-padding: 15px;
+        --ul-width: 300px;
+        --navbar-height: 25px;
+        --navbar-width: 200px;
+        --nav-button-padding: 5;
+        --nav-button-radius: 0px;
+        --footer-padding: 10px;
+    }
