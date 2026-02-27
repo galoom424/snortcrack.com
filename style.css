@@ -957,14 +957,6 @@
         display: block
     }
 
-    header {
-        display: none;
-    }
-
-    footer {
-        display: none;
-    }
-
     footer {
         margin-top: 2rem;
         color: #000;
