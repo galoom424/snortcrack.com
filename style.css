@@ -1103,3 +1103,21 @@
         min-width: 30rem;
         max-width: 100%;
     }
+
+    @media screen and (min-width:436px) and (max-width:720px) {
+        .measure-m {
+            max-width: 30rem;
+        }
+
+        .measure-small-m {
+            max-width: 26rem;
+        }
+
+        .measure-wide-m {
+            max-width: 34rem;
+        }
+
+        .measure-narrow-m {
+            max-width: 20rem
+        }
+    }
