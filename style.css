@@ -84,8 +84,13 @@
     }
 
     .title {
-        margin-bottom: 15px;
-        margin-top: 4px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .title-text {
         width: 100%;
         font-style: normal;
         font-stretch: condensed;
