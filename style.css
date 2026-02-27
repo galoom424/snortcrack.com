@@ -7,6 +7,16 @@
         --border1: #777;
         --text-color: #000000;
 
+                /* text */
+        --body-font: 'Roboto', sans-serif;
+        --heading-font: 'pgothic', sans-serif;
+        --large-font-size: 40px;
+        --base-font-size: 16x;
+        --small-font-size: 12px;
+        --ul-font-size: 20px;
+        --nav-button-font-size: 20px;
+        --footer-font-size: 12px;
+
         /* layout stuff */
         --main-width: 894px;
         --main-height: 1200px;
@@ -47,6 +57,19 @@
         position: relative;
         margin: 100px;
         box-shadow: 2px 2px 95%, black
+    }
+
+    footer {
+        border-top: 1px solid var(--border1);
+        min-width: var(--main-width);
+        text-align: right;
+        font-size: var(--footer-font-size);
+        font-family: var(--heading-font);
+        color: var(--text-color);
+        position: absolute;
+        padding-top: var(--footer-padding);
+        bottom:var(--footer-padding);
+        left: var(--horizontal-padding);
     }
 
     .title {
@@ -1145,18 +1168,10 @@
         height: 100%
     }
 
-    .article,.aside,.footer,.header,.nav,.section {
+    .article,.aside,.header,.nav,.section {
         display: block
     }
 
-    footer {
-        margin-top: 2rem;
-        color: #000;
-    }
-
-    footer {
-        clear:both
-    }
 
     .btn {
         display: none;
