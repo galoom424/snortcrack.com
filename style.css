@@ -64,8 +64,10 @@
     }
 
     header. {
-        width: 100%;
-        margin-bottom: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     footer {
@@ -82,10 +84,26 @@
     }
 
     .title {
-        font-family: var(--heading-font);
-        font-size: 20px;
-        text-align: left;
         margin-bottom: 15px;
+        margin-top: 4px;
+        width: 100%;
+        font-style: normal;
+        font-stretch: condensed;
+        font-family: var(--title-font);
+        font-size: var(--title-font-size);;
+        text-align: left;
+    }
+
+    .title-banner {
+        display: -ms-flexbox;
+        display: flex;
+        padding-bottom: 2px;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -ms-flex-align: center;
+        align-items: center
     }
 
     .seperator {
