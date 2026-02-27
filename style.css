@@ -63,13 +63,6 @@
         box-shadow: 2px 2px 95%, black
     }
 
-    header. {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    }
-
     footer {
         border-top: 1px solid var(--border1);
         min-width: var(--main-width);
@@ -84,7 +77,6 @@
     }
 
     .title {
-        display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -100,7 +92,6 @@
     }
 
     .title-banner {
-        display: -ms-flexbox;
         display: flex;
         padding-bottom: 2px;
         -ms-flex: 1 1 auto;
