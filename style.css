@@ -38,9 +38,10 @@
         font-family: var(--body-font);
         color: var(--text-color);
         background-color: var(--bg-color);
-        margin: 100px;
+        padding: 100px;
         font-size: var(--base-font-size);
         display: flex;
+        justify-content: center;
     }
     
     
