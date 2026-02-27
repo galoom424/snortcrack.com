@@ -22,6 +22,7 @@
         --main-height: 1200px;
         --horizontal-padding: 20px;
         --vertical-padding: 15px;
+        --vertical-element-padding: 10px;
         --ul-width: 300px;
         --navbar-height: 25px;
         --navbar-width: 200px;
@@ -69,8 +70,7 @@
         font-family: var(--heading-font);
         color: var(--text-color);
         position: absolute;
-        padding-top: var(--vertical-padding);
-        bottom:var(--vertical-padding);
+        padding-top: var(--vertical-element-padding);
         left: var(--horizontal-padding);
     }
     
@@ -78,7 +78,7 @@
         display: flex;
         justify-content: left;
         align-items: left;
-        padding-top: var(--vertical-padding);
+        padding-bottom: var(--vertical-padding);
         width: 100%
     }
     
