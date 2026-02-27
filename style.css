@@ -92,11 +92,7 @@
     }
 
     .title-banner {
-        display: flex;
         padding-bottom: 2px;
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        -ms-flex-pack: end;
         justify-content: flex-end;
         -ms-flex-align: center;
         align-items: center
