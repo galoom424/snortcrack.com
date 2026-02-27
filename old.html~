@@ -13,3 +13,15 @@
               <li><a class="nav-button" href="https://www.youtube.com/@carpmachinegun">Info</a></li>
             </ul>
           </nav>
+
+footer {
+        min-width: var(--main-width);
+        text-align: left;
+        font-size: var(--footer-font-size);
+        font-family: var(--heading-font);
+        color: var(--text-color);
+        position: absolute;
+        padding-top: var(--footer-padding);
+        bottom: var(--footer-padding);
+        left: var(--horizontal-padding);
+    }
