@@ -96,6 +96,7 @@
         position: absolute;
         padding-top: var(--vertical-element-padding);
         left: var(--horizontal-padding);
+        display: flex;
     }
 
     .dev {
