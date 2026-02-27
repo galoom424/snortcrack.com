@@ -95,7 +95,8 @@
         padding-bottom: 2px;
         justify-content: flex-end;
         -ms-flex-align: center;
-        align-items: center
+        align-items: center;
+        border: 1px solid black;
     }
 
     .seperator {
